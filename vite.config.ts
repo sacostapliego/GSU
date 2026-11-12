@@ -28,7 +28,7 @@ function copyStaticCourses(): Plugin {
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/GSU-Portfolio/',
+  base: '/GSU/',
   plugins: [react(), copyStaticCourses()],
   server: { headers: crossOriginIsolationHeaders },
   preview: { headers: crossOriginIsolationHeaders },

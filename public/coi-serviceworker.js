@@ -62,7 +62,7 @@ if (typeof window === 'undefined') {
     if (!window.isSecureContext || !navigator.serviceWorker) return
 
     // Resolved from the script's own URL so this keeps working under a
-    // project sub-path (e.g. GitHub Pages at /GSU-Portfolio/).
+    // project sub-path (e.g. GitHub Pages at /GSU/).
     const scriptUrl = document.currentScript && document.currentScript.src
     if (!scriptUrl) return
 
