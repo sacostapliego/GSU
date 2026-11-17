@@ -2,7 +2,7 @@ export interface Course {
   id: string
   code: string
   name: string
-  language: 'python' | 'java' | 'c' | 'r' | 'assembly' | 'mixed'
+  language: 'python' | 'java' | 'c' | 'r' | 'assembly' | 'mixed' | ''
   path: string
   image?: string
   link?: string

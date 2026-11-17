@@ -13,6 +13,8 @@ import img4520 from '../assets/course-images/4520.png'
 import img4760 from '../assets/course-images/4760.png'
 import img4311 from '../assets/course-images/4311.png'
 import img4850 from '../assets/course-images/4850.png'
+import img4351 from '../assets/course-images/4351.png'
+import img4352 from '../assets/course-images/4352.png'
 
 export const courses: Course[] = [
   {
@@ -130,5 +132,21 @@ export const courses: Course[] = [
     language: 'python',
     path: '4850 - Machine Learning',
     image: img4850
+  },
+  {
+    id: 'csc-4351',
+    code: 'CSC 4351',
+    name: 'Capstone I',
+    language: '',
+    path: '4351 - Capstone I',
+    image: img4351
+  },
+  {
+    id: 'csc-4352',
+    code: 'CSC 4352',
+    name: 'Capstone II',
+    language: 'mixed',
+    path: '4352 - Capstone II',
+    image: img4352
   },
 ]
