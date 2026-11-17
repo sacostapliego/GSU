@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { courses } from './data/courses'
 import CSC1301 from './pages/CSC1301'
 import CourseExplorer from './pages/CourseExplorer'
+import Footer from './components/Footer'
 import type { Course } from './types'
 
 const MotionBox = motion.create(Box)
@@ -159,7 +160,7 @@ function PortfolioHome({ onNavigation }: { onNavigation: (route: string) => void
   }
 
   return (
-    <Box minH="100vh" minW="100%" bg="#fafafa" py={10} overflowX="hidden">
+    <Box minH="100vh" minW="100%" bg="#fafafa" pt={10} overflowX="hidden">
       <Container maxW="container.2xl">
         <Heading size="5xl" mb={4} fontWeight="light" textAlign="center">
           GSU Computer Science Portfolio
@@ -333,6 +334,7 @@ function PortfolioHome({ onNavigation }: { onNavigation: (route: string) => void
             </SimpleGrid>
         </Container>
       </Container>
+      <Footer />
     </Box>
   )
 }
